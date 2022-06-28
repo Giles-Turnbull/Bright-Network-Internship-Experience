@@ -272,11 +272,11 @@ int main()
         for(int y=0; y<mapHeight; y++){
             //if the node is the start node
             if(nodes[y*mapWidth + x].x == startX && nodes[y*mapWidth + x].y == startY){
-                cout << "R" << " ";
+                cout << "E" << " ";
             }
             //if the node is the end node
             else if(nodes[y*mapWidth + x].x == endX && nodes[y*mapWidth + x].y == endY){
-                cout << "E" << " ";
+                cout << "R" << " ";
             }
             //if the node is an obstacle
             else if(nodes[y*mapWidth + x].obstacle){
