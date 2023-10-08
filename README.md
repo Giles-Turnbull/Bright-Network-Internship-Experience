@@ -30,3 +30,6 @@ The algorithm should suggest the least amount of obstacles using the format [(x1
 <h1>My solution</h1>
 
 In this program I have implemented a version of the A* pathfinding algorithm to a 2D grid comprised of nodes. The addition I made for handling obstacles was to create a bias system where it prioritises any path without an obstacle. If the path is not an option without going over one or more obstacles, the most optimal path with least number of obstacles moved is chosen.
+<br><br>
+Here is an example of this code when run:<br><br>
+<img src="https://i.imgur.com/yqX6dAh.png" width="800" alt="run">
