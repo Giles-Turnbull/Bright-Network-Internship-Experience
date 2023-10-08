@@ -1,5 +1,4 @@
-Bright Network Internship, June 2022
-# Bright-Network-Internship-Experience
+<h1>Path finding algorithm for Bright Network Internship, June 2022</h1>
 Bright Network's Internship Experience coding challenge
 
 Overview:
@@ -27,3 +26,7 @@ In the event that your vehicle is unable to reach its destination, your algorith
 It should then identify which obstacles should be removed in order for the vehicle to reach it's destination.
 
 The algorithm should suggest the least amount of obstacles using the format [(x1, y1), (x2, y2),...] in order for your vehicle to reach its destination.
+
+<h1>My solution</h1>
+
+In this program I have implemented a version of the A* pathfinding algorithm to a 2D grid comprised of nodes. The addition I made for handling obstacles was to create a bias system where it prioritises any path without an obstacle. If the path is not an option without going over one or more obstacles, the most optimal path with least number of obstacles moved is chosen.
